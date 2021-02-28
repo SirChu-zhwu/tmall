@@ -1,0 +1,38 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 12px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", "sans-serif\3b";
+}
+ul,dl,ol{
+    list-style: none;
+}
+a,u{
+    text-decoration: none;
+}
+i,em{
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+input{
+    border: 0;
+    outline: none;/*不要轮廓*/
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    overflow: hidden;
+    font-size: 0;/*兼容IE6*/
+    height: 0;
+}
+img{
+    border: 0;
+    vertical-align: top;
+}

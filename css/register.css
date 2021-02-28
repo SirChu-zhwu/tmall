@@ -1,0 +1,304 @@
+@charset "utf-8";
+ul,.content-cont{
+    width: 990px;
+    margin: 0 auto;
+}
+/* ul */
+ul{
+    border-bottom: 2px solid #e6e6e6;
+    padding-top: 13px;
+}
+ul>li{
+    float: left;
+    text-align: center;
+    width: 180px;
+    height:35px;
+    margin-bottom: -2px; /*让边框重合*/
+}
+.border-show{
+    border-bottom: 2px solid #FF0036;
+}
+ul li:nth-child(1){
+    margin-left: 135px;
+}
+ul li i{
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #999999;
+    border-radius: 45%;
+    margin-right: 6px;
+}
+.bgcolor-show{
+    background-color: #FF0036;
+}
+ul li span{
+    font-size: 16px;
+    font-weight: 700;
+    color: #999999;
+}
+.color-show{
+    color: #000000;
+}
+
+.content-cont{
+    font-family: tahoma, arial, "\5b8b\4f53" !important;
+    color: #3e3e3e;
+}
+/* content-one */
+.content-one{
+    position: relative;
+    width: 720px;
+    height: 460px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 70px auto;
+    border: 2px solid #e6e6e6;
+    border-top: 2px solid #FF0036;
+    position: relative;
+}
+.content-one h3{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 600;
+}
+.content-one em,.content-one span{
+    color: #000000;
+    font-weight: 700;
+}
+.content-one span{
+    text-decoration: underline;
+}
+ol li{
+    line-height: 20px;
+}
+ol li,.content-one p{
+    margin: 5px 0 0 8px;
+}
+.content-one p a{
+    font-size: 14px;
+    color: #FF0036;
+    line-height: 22px;
+    font-weight: 700;
+}
+.content-one p a:hover{
+    text-decoration: underline;
+}
+.but{
+    margin: 10px 0 0 250px;
+    width: 180px;
+    height: 36px;
+    background-color: #FF0036;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    font-family: tahoma, arial, "\5b8b\4f53" !important;
+}
+.but:hover{
+    background-color: #f72929;
+}
+.cha{
+    position: absolute;
+    top: 10px;
+    right: 18px;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #FF0036;
+    cursor: pointer;
+}
+/* content-two */
+.content-two{
+    display: none;
+    position: relative;
+    width: 720px;
+    margin: 0 auto;
+}
+.register-pass{
+    width: 220px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #333333;
+    border-radius: 2px;
+    font-family: tahoma, arial, "\5b8b\4f53" !important;
+}
+.register-text{
+    width: 222px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #999999;
+    font-family: tahoma, arial, "\5b8b\4f53" !important;
+}
+.content-two p{
+    color: #000000;
+    font-weight: 600;
+}
+.content-two span{
+    color: #666666;
+    font-weight: normal;
+    margin-right: 18px;
+}
+.content-two>p{
+    margin: 70px 0 40px 150px;
+}
+.content-two form span:nth-child(1)
+,.content-two span:nth-child(4){
+    margin-left: 180px;
+}
+.content-two span:nth-child(7){
+    margin-left: 191px;
+}
+.content-two form input:nth-child(2){
+    margin-bottom: 20px;
+}
+.content-two form input:nth-child(5)
+,.content-two form input:nth-child(8){
+    margin-bottom: 30px;
+}
+.content-two form p:nth-child(6){
+    margin:0 0 20px 170px;
+}
+.register-password{
+    display: none;
+    width: 250px;
+    line-height: 24px;
+    border: 1px solid #999999;
+    background-color: #f8f8f8;
+    position: absolute;
+    top:20px;
+    right: -20px;
+}
+.register-password i{
+    margin: 0 10px 0;
+    color: #FF0036;
+    font-weight: 900;
+}
+.register-password em{
+    font-weight: 900;
+}
+.register-password b{
+    border-top: 6px solid  transparent;
+    border-bottom: 6px solid transparent;
+    border-right: 6px solid #a09d9d;
+    width: 0;
+    height: 0;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    left: -7px;
+}
+.register-password-copy{
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 111px;
+    color: #FF0036;
+}
+.register-password1{
+    /* display: none; */
+    line-height: 24px;
+    position: absolute;
+    top:112px;
+    left: 488px;
+    color: #0eeb62;
+    font-weight: 900;
+}
+.register-password2{
+    display: none;
+    color: #FF0036;
+    width: 270px;
+    position: absolute;
+    top: 205px;
+    right: -38px;
+}
+/* content-three */
+.content-three{
+    display: none;
+    width: 900px;
+    height: 360px;
+    box-sizing: border-box;
+    padding: 30px 50px 0 160px;
+    margin: 30px auto;
+    border: 1px solid #dedede;
+}
+.content-three form span:nth-child(1){
+    margin-left: 14px;
+}
+.content-three form span:nth-child(9){
+    margin-left: 43px;
+}
+.content-three span{
+    margin-right: 18px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 14px;
+}
+.three-span{
+    margin-left: 100px;
+    font-size: 12px !important;
+}
+.content-three i{
+    margin-left: 16px;
+    color: #FF0036;
+}
+.content-three a{
+    color: #39abf7;
+    margin-left: -10px;
+}
+.content-three form input{
+    width: 222px;
+    height: 30px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    border: 1px solid #dedede;
+    font-family: tahoma, arial, "\5b8b\4f53" !important;
+}
+.content-three form select{
+    width: 90px;
+    margin-right: 2px;
+    font-size: 12px;
+}
+.three-but{
+    margin: 10px 0 20px 98px;
+    width: 180px;
+    height: 36px;
+    background-color: #39abf7;
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    border: none;
+}
+/* .content--four */
+.content-four{
+     display: none;
+}
+.content-four img{
+    width: 300px;
+    height: 240px;
+    margin: 50px 336px;
+}
+h1,.content-four p{
+    font-size: 28px;
+    font-family: "Microsoft YaHei", tahoma, arial, "Hiragino Sans GB", "\5b8b\4f53", "sans-serif\3b";
+    text-align: center;
+}
+h1{
+    font-weight: 900 !important;
+    margin:-10px 0 10px 0;
+}
+.content-four a{
+    display: block;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    color: #ffffff;
+    font-size: 14px;
+    background-color: #39abf7;
+}
